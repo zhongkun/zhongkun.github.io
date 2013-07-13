@@ -3,14 +3,21 @@
 	Date: July 2009
 	Description: Sample layout for HTML5 and CSS3 goodness.
 	Version: 1.0
+<<<<<<< HEAD
 	Author: Enrique Ramírez
 	Autor URI: http://enrique-ramirez.com
+=======
+	License: MIT <http://opensource.org/licenses/MIT>
+	Licensed by: Smashing Media GmbH <http://www.smashingmagazine.com/>
+	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
+>>>>>>> origin/master
 */
 
 /* Imports */
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
@@ -42,6 +49,21 @@ code{
     padding-bottom:0px;
     font-weight:normal;
     font-family:Consolas, "Liberation Mono", Courier, monospace;
+=======
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+
+/***** Global *****/
+/* Body */
+body {
+    background: #F5F4EF;
+    color: #000305;
+    font-size: 87.5%; /* Base font size: 14px */
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.429;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+>>>>>>> origin/master
 }
 
 /* Headings */
@@ -53,6 +75,7 @@ h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
 
 h1, h2, h3, h4, h5, h6 {
+<<<<<<< HEAD
     text-shadow:0px 0px 1px #BFBFBF;
 	font-weight: normal;
     font-style: normal;
@@ -63,16 +86,27 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 50px;
 
+=======
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+    font-family: 'Yanone Kaffeesatz', arial, serif;
+>>>>>>> origin/master
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
 	
+<<<<<<< HEAD
 hr { border: 1px dotted #8A887B; }
+=======
+hr { border: 2px solid #EEEEEE; }
+>>>>>>> origin/master
 
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
+<<<<<<< HEAD
 	color: inherit;
 	padding: 0 1px;
     text-decoration: underline;
@@ -82,6 +116,17 @@ a:hover, a:active {
 	/*color: #fff;*/
 	text-decoration: underline;
 	/*text-shadow: 1px 1px 1px #333;*/
+=======
+	color: #C74350;
+	padding: 0 1px;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+>>>>>>> origin/master
 }
 
 h1 a:hover {
@@ -89,7 +134,13 @@ h1 a:hover {
 }
 	
 /* Paragraphs */
+<<<<<<< HEAD
 p {margin-bottom: 1.143em;}
+=======
+div.line-block,
+p { margin-top: 1em;
+    margin-bottom: 1em;}
+>>>>>>> origin/master
 
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
@@ -97,11 +148,16 @@ em, i {font-style: italic;}
 /* Lists */
 ul {
 	list-style: outside disc;
+<<<<<<< HEAD
 	margin: 1em 0 1.5em 1.5em;
+=======
+	margin: 0em 0 0 1.5em;
+>>>>>>> origin/master
 }
 
 ol {
 	list-style: outside decimal;
+<<<<<<< HEAD
 	margin: 1em 0 1.5em 1.5em;
 }
 
@@ -112,6 +168,21 @@ ol {
 }
 
 .post-info p{
+=======
+	margin: 0em 0 0 1.5em;
+}
+
+li { margin-top: 0.5em;}
+
+.post-info {
+    float:right;
+    margin:10px;
+    padding:5px;
+}
+
+.post-info p{
+    margin-top: 1px;
+>>>>>>> origin/master
     margin-bottom: 1px;
 }
 
@@ -121,7 +192,11 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
+<<<<<<< HEAD
 pre{background-color: #000; padding: 10px; color: #fff; margin: 10px; overflow: auto;}
+=======
+pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto;}
+>>>>>>> origin/master
 
 /* Quotes */
 blockquote {
@@ -177,6 +252,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 
 	/* Banner */
+<<<<<<< HEAD
 	#banner h1 {font-size: 51px; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
         text-align:center;
@@ -184,18 +260,32 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		display: block;
 		font-weight: normal;
 		margin: 0 0 .4em .2em;
+=======
+	#banner h1 {font-size: 3.571em; line-height: 0;}
+	#banner h1 a:link, #banner h1 a:visited {
+		color: #000305;
+		display: block;
+		font-weight: bold;
+		margin: 0 0 .6em .2em;
+>>>>>>> origin/master
 		text-decoration: none;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
+<<<<<<< HEAD
 		color: inherit;
 		/*text-shadow: none;*/
+=======
+		color: #C74350;
+		text-shadow: none;
+>>>>>>> origin/master
 	}
 	
 	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
 	
 	/* Main Nav */
 	#banner nav {
+<<<<<<< HEAD
 		background:transparent;
 		/*font-size: 1.143em;*/
 		/*height: 40px;*/
@@ -205,6 +295,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		text-align: center;
 		width: 800px;
         font-style:italic;
+=======
+		background: #000305;
+		font-size: 1.143em;
+		height: 40px;
+		line-height: 30px;
+		margin: 0 auto 2em auto;
+		padding: 0;
+		text-align: center;
+		width: 800px;
+>>>>>>> origin/master
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -215,6 +315,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
+<<<<<<< HEAD
 		display: inline-block;
 		/*height: 30px;*/
         padding: 5px;
@@ -227,6 +328,19 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		/*color: #fff;*/
 		/*text-shadow: none !important;*/
         text-decoration:underline;
+=======
+		color: #fff;
+		display: inline-block;
+		height: 30px;
+		padding: 5px 1.5em;
+		text-decoration: none;
+	}
+	#banner nav a:hover, #banner nav a:active,
+	#banner nav .active a:link, #banner nav .active a:visited {
+		background: #C74451;
+		color: #fff;
+		text-shadow: none !important;
+>>>>>>> origin/master
 	}
 	
 	#banner nav li:first-child a {
@@ -243,7 +357,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Featured
 *****************/
 #featured {
+<<<<<<< HEAD
 	background: transparent;
+=======
+	background: #fff;
+>>>>>>> origin/master
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
@@ -262,7 +380,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 #featured figure img {display: block; float: right;}
 
+<<<<<<< HEAD
 #featured h2 {color: inherit; font-size: 1.714em; margin-bottom: 0.333em;}
+=======
+#featured h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
+>>>>>>> origin/master
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
@@ -272,7 +394,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Body
 *****************/
 #content {
+<<<<<<< HEAD
 	background: transparent;
+=======
+	background: #fff;
+>>>>>>> origin/master
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
@@ -291,7 +417,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
+<<<<<<< HEAD
 	color: inherit;
+=======
+	color: #C74350;
+>>>>>>> origin/master
 	font-size: 1.429em;
 	margin-bottom: .25em;
 	padding: 0 3px;
@@ -328,6 +458,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	}
 	
 		/* Icons */
+<<<<<<< HEAD
 		.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
 		.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
 		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
@@ -336,11 +467,36 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
 		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
 		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.org');}
+=======
+		.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
+		.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
+		.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
+		.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
+		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
+		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
+		.social a[href*='github.com'],
+		.social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
+		.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
+		.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
+		.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
+		.social a[href*='news.ycombinator.com'],
+		.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
+		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
+		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
+		.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
+		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+		.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
+		.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
+		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+		.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
+		.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
+>>>>>>> origin/master
 
 /*
 	About
 *****************/
 #about {
+<<<<<<< HEAD
 	background: transparent;
 	font-style: italic;
     font-size: 11px;
@@ -348,6 +504,14 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	overflow: hidden;
 	padding: 20px;
 	text-align: right;
+=======
+	background: #fff;
+	font-style: normal;
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px;
+	text-align: left;
+>>>>>>> origin/master
 	width: 760px;
 	
 	border-radius: 10px;
@@ -373,14 +537,24 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 .hentry {
 	display: block;
 	clear: both;
+<<<<<<< HEAD
 	/*border-bottom: 1px solid #eee;*/
 	/*padding: 1.5em 0;*/
+=======
+	border-bottom: 1px solid #eee;
+	padding: 1.5em 0;
+>>>>>>> origin/master
 }
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
+<<<<<<< HEAD
 .entry-title {text-align:center;font-size: 31px; font-style:italic; margin-bottom: 10px; margin-top: 0;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #8A887B;}
+=======
+.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+>>>>>>> origin/master
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
@@ -453,6 +627,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+<<<<<<< HEAD
 
     #tagline{
         text-align:center;
@@ -460,3 +635,5 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
         padding:0px;
         margin:0px;
     }
+=======
+>>>>>>> origin/master
